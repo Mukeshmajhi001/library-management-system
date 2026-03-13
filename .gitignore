@@ -1,0 +1,112 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.log
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+.netbeans/
+
+# PHP Specific
+*.log
+*.err
+error_log
+php_error.log
+*.sql.gz
+*.sql.zip
+
+# Database connection config (sensitive info)
+/includes/config.php
+/config.php
+*.config.php
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# Node modules (if using npm for assets)
+/node_modules/
+package-lock.json
+
+# Cache and temp files
+/tmp/
+/cache/
+/temp/
+*.cache
+*.tmp
+*.temp
+
+# Uploads directory (if any)
+/uploads/
+/assets/uploads/
+*.upload
+
+# Logs
+/logs/
+*.log
+access.log
+error.log
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Git files
+*.git
+*.gitignore
+*.gitattributes
+
+# Project specific
+/library_db.sql
+/database/backup/
+*.sql.bak
+
+# Don't ignore library.sql (database structure)
+!database/library.sql
+
+# Don't ignore .gitignore and README.md
+!.gitignore
+!README.md
+
+# Ignore all hidden files
+.*
+!.gitignore
+!README.md
+
+# PHPUnit
+/phpunit.xml
+.phpunit.result.cache
+
+# npm
+npm-debug.log
+yarn-error.log
+
+# SSH Keys
+*.pem
+*.key
+*.pub
+
+# SSL Certificates
+*.crt
+*.csr
+*.p12
