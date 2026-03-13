@@ -13,7 +13,7 @@ A comprehensive Library Management System built with PHP, MySQL, Bootstrap, and 
 - Secure admin login system
 - Session management
 - Password encryption
-
+yo
 ### 📖 Book Management
 
 - Add new books with details (ISBN, title, author, category, publisher, etc.)
@@ -104,7 +104,7 @@ Before you begin, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/Mukeshmajhi001/library-management-system.git
 cd library-management-system
 ```
 
@@ -412,7 +412,7 @@ See the `LICENSE` file for details.
 ## 📞 Support
 
 For support, email:
-`your-email@example.com`
+`mukeshkumarmajhi9806357905@gmail.com` or `mks@mukeshkumarmajhi.com.np`
 
 or create an issue on GitHub.
 
@@ -435,7 +435,7 @@ or create an issue on GitHub.
 
 ## 👥 Authors
 
-**Mukesh majhi** – Initial work – YourGitHub
+**Mukesh majhi** – Initial work – @Mukeshmajhi001
 
 ---
 
