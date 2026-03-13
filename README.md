@@ -2,7 +2,9 @@
 
 A comprehensive Library Management System built with PHP, MySQL, Bootstrap, and JavaScript. This system helps librarians manage books, students, and track book issuances/returns efficiently.
 
-![Library Management System](screenshot.png)
+![Library Management System](https://github.com/Mukeshmajhi001/library-management-system/blob/639d648e049065ae0fda2f27748418c522ca4e80/screenshots/image%20copy.png)
+![Library Management System](https://github.com/Mukeshmajhi001/library-management-system/blob/639d648e049065ae0fda2f27748418c522ca4e80/screenshots/image.png)
+
 
 ## ✨ Features
 
@@ -433,7 +435,7 @@ or create an issue on GitHub.
 
 ## 👥 Authors
 
-**Your Name** – Initial work – YourGitHub
+**Mukesh majhi** – Initial work – YourGitHub
 
 ---
 
@@ -448,58 +450,4 @@ or create an issue on GitHub.
 
 ---
 
-Made with ❤️ by **[Your Name]**
-
-Report Bug · Request Feature
-
----
-
-## 🔐 Additional: `.htaccess` (Optional – for security)
-
-If you are using **Apache**, add this `.htaccess` file in the root folder.
-
-```apache
-# .htaccess
-
-RewriteEngine On
-
-# Protect sensitive files
-<FilesMatch "^(config\.php|functions\.php|.*\.sql)$">
-    Order allow,deny
-    Deny from all
-</FilesMatch>
-
-# Protect includes directory
-RewriteRule ^includes/.*$ - [F,L]
-
-# Prevent directory listing
-Options -Indexes
-
-# Custom error pages
-ErrorDocument 404 /error-404.php
-ErrorDocument 403 /error-403.php
-ErrorDocument 500 /error-500.php
-
-# Security headers
-<IfModule mod_headers.c>
-    Header set X-Content-Type-Options "nosniff"
-    Header set X-Frame-Options "SAMEORIGIN"
-    Header set X-XSS-Protection "1; mode=block"
-</IfModule>
-
-# Compress files
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
-</IfModule>
-
-# Cache static assets
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresByType image/jpg "access plus 1 year"
-    ExpiresByType image/jpeg "access plus 1 year"
-    ExpiresByType image/gif "access plus 1 year"
-    ExpiresByType image/png "access plus 1 year"
-    ExpiresByType text/css "access plus 1 month"
-    ExpiresByType application/javascript "access plus 1 month"
-</IfModule>
-```
+Made with ❤️ by **[Mukesh majhi]** **[@mukeshmajhi001]**
