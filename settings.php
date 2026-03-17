@@ -107,36 +107,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                 </div>
                 
-                <!-- Change Password Section -->
-                <div class="card shadow mb-4">
-                    <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Change Password</h6>
-                    </div>
-                    <div class="card-body">
-                        <form method="POST" action="change-password.php" onsubmit="return validatePassword()">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <label for="current_password" class="form-label">Current Password</label>
-                                    <input type="password" class="form-control" id="current_password" name="current_password" required>
-                                </div>
-                                
-                                <div class="col-md-4 mb-3">
-                                    <label for="new_password" class="form-label">New Password</label>
-                                    <input type="password" class="form-control" id="new_password" name="new_password" required>
-                                </div>
-                                
-                                <div class="col-md-4 mb-3">
-                                    <label for="confirm_password" class="form-label">Confirm New Password</label>
-                                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
-                                </div>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-warning">
-                                <i class="fas fa-key me-2"></i>Change Password
-                            </button>
-                        </form>
-                    </div>
-                </div>
             </main>
         </div>
     </div>

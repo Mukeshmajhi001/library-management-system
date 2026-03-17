@@ -80,7 +80,7 @@ CREATE TABLE `settings` (
 
 -- Insert default settings
 INSERT INTO `settings` (`setting_key`, `setting_value`) VALUES
-('library_name', 'Central Library'),
+('library_name', 'Mukesh Library'),
 ('library_address', '123 Library Street, City'),
 ('library_phone', '+1234567890'),
 ('library_email', 'library@example.com'),
